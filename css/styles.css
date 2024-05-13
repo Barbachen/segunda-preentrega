@@ -2,8 +2,8 @@
 
 paleta de colores 
 
-#69B64E - blanco fondo
-#EDFFEF - verde header
+#69B64E - verde header
+#EDFFEF - blanco/verde fondo
 #006E13 - verde urupan
 #F0E20F - amarillo letra escudo
 
@@ -73,10 +73,15 @@ header{
     color: #69B64E;
 }
 
-main    {
-    background-color: #EDFFEF;
-
+@media  (max-widht: 1024px) {
+    header{
+        background-color: #69B64E;
+    }
+    main {
+        background-color: #EDFFEF;
+    }
 }
+
 
 .imgInicio {
     width: 100%;
