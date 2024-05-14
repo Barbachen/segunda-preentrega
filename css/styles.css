@@ -26,7 +26,6 @@ box-sizing: border-box;
 
 
 header{
-    background-color: #69B64E;
     color: #006E13;
     display: flex;
     justify-content: space-between;
@@ -75,7 +74,7 @@ header{
 
 @media  (max-widht: 1024px) {
     header{
-        background-color: #69B64E;
+        background-color: red;
     }
     main {
         background-color: #EDFFEF;
