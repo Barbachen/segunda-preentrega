@@ -26,6 +26,7 @@ box-sizing: border-box;
 
 
 header{
+    background-color : #69B64E ;
     color: #006E13;
     display: flex;
     justify-content: space-between;
