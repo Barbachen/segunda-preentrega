@@ -73,14 +73,7 @@ header{
     color: #69B64E;
 }
 
-@media  (max-widht: 1024px) {
-    header{
-        background-color: red;
-    }
-    main {
-        background-color: #EDFFEF;
-    }
-}
+
 
 
 .imgInicio {
