@@ -170,7 +170,6 @@ header a img {
     text-transform: capitalize;
     font-family: "Poppins", sans-serif;
     text-decoration: underline;
-    font-size: medium;
 }
 .nuestraHistoria {  
     text-align: center;
@@ -213,6 +212,7 @@ header a img {
     object-fit: contain;
 }
 
+
 .tiendaPriceTag {
     background-color: #006E13;
     color: #EDFFEF;
@@ -252,6 +252,10 @@ header a img {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .pSH2{
+        width: 100%;
+        font-weight: 600;
+    }
     }
     
 @media (max-width: 768px){
@@ -286,6 +290,10 @@ header a img {
     {
         flex-direction: column;
     }
+    .pSH2{
+        width: 100%;
+        font-weight: 400;
+    }
 
 }
 @media (max-width: 320px){
@@ -315,5 +323,9 @@ header a img {
     .nuestraHistoria
     {
         flex-direction: column;
+    }
+    .pSH2{
+        width: 100%;
+        font-weight: 400;
     }
 }    
