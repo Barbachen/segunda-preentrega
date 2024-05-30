@@ -48,3 +48,11 @@ footer .footer {
   padding: 20px; }
   footer .footer .logo-redes img {
     height: 80px; }
+
+.main-index .sectionH1 {
+  background-color: #006E13;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal; }
