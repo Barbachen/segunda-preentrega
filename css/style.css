@@ -2,3 +2,49 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+
+header {
+  background-color: #69B64E;
+  color: #006E13;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  gap: 20px; }
+  header a img {
+    height: 200px; }
+  header nav .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    list-style: none; }
+    header nav .navBar li {
+      flex-grow: 1;
+      text-align: center; }
+      header nav .navBar li a {
+        display: block;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: larger;
+        padding: 20px 10px;
+        background-color: #F0E20F;
+        color: #006E13;
+        border-radius: 60%;
+        width: 145px;
+        height: 25px;
+        box-sizing: initial;
+        justify-content: center; }
+        header nav .navBar li a:hover {
+          color: #F0E20F;
+          background-color: #006E13; }
+
+footer .footer {
+  background-color: #69B64E;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  padding: 20px; }
+  footer .footer .logo-redes img {
+    height: 80px; }
