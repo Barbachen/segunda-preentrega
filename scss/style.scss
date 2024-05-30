@@ -1,8 +1,16 @@
+@import "./utilities/variable";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/funciones";
+
 @import "./base/reset";
+
 @import "./layout/header";
-@import "./layout/footer";
 @import "./layout/main-index";
+
 @import "./layout/main-actividades";
 @import "./layout/main-nuestra-historia";
 @import "./layout/main-planes-sociales";
 @import "./layout/main-tienda";
+@import "./layout/footer";
+
