@@ -4,13 +4,18 @@
 @import "./utilities/funciones";
 
 @import "./base/reset";
-
+@import "./base/tipografias";
 @import "./layout/header";
 @import "./layout/main-index";
-
 @import "./layout/main-actividades";
 @import "./layout/main-nuestra-historia";
 @import "./layout/main-planes-sociales";
 @import "./layout/main-tienda";
 @import "./layout/footer";
 
+
+@import "./components/cards";
+
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media320";

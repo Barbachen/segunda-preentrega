@@ -1,0 +1,38 @@
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        }
+    .sectionInformacionClub{
+        width: 100%;
+        font-size: medium;   
+        padding-left: 30px;
+    }
+    .sectionContacto{
+        width: 100%;
+        font-size: medium;
+        padding-left: 30px;
+    }
+    header a img{
+        height: 150px;
+    }
+    .navBar li a{
+        width: 125px;
+        height: 20px;
+        font-size: medium;
+    }
+    .navBar{
+        flex-wrap: wrap;
+    }
+    .logo-redes img{
+        height: 60px;
+    }
+    .nuestraHistoria
+    {
+        flex-direction: column;
+    }
+    .pSH2{
+        width: 100%;
+        font-weight: 400;
+    }
+
+}

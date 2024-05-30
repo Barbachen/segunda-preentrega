@@ -1,4 +1,5 @@
 .main-tienda-h1{
+    background-color: #EDFFEF;
     .sectionH1{
         background-color: #006E13;
         color: white;
@@ -28,14 +29,12 @@
     .container-store div img {
         width: 100%;
         height:100%;
-        object-fit: contain;
     }
     
     
     .tiendaPriceTag {
         background-color: #006E13;
         color: #EDFFEF;
-        text-align: center;
     
     }
 }

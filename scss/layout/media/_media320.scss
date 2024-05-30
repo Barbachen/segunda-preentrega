@@ -1,0 +1,33 @@
+@media (max-width: 320px){
+    header a img{
+        height: 125px;
+    }
+    .navBar li a{
+        width: 100px;
+        height: 15px;
+        font-size: small;
+    }
+    .sectionContacto{
+        width: 100%;
+        font-size: small;
+        padding-left: 20px;
+    }
+    .logo-redes img{
+        height: 45px;
+    }
+    main .sectionH1{
+        font-weight: 300;
+    }
+    .nuestraHistoria img{
+        height: 200px;
+
+    }
+    .nuestraHistoria
+    {
+        flex-direction: column;
+    }
+    .pSH2{
+        width: 100%;
+        font-weight: 400;
+    }
+}  
